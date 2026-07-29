@@ -247,7 +247,7 @@ export default function RecognitionPage() {
                                 </div>
                                 <div>
                                     <h1 className="text-xl sm:text-2xl font-semibold tracking-tight">King&apos;s Recognition</h1>
-                                    <p className="text-sm text-[var(--text-secondary)]">Celebrating excellence in Kingdom 23</p>
+                                    <p className="text-sm text-[var(--text-secondary)]">Celebrating excellence in Kingdom 4061</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-2">

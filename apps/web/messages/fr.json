@@ -28,11 +28,11 @@
   },
   "nav": {
     "siteTitle": "Royaume 23",
-    "siteSubtitle": "Dirigé par les gardes d'Angmar Nazgul",
+    "siteSubtitle": "Dirigé par les gardes d'SW61 Nazgul",
     "home": "Maison",
     "calendar": "Calendrier",
     "roster": "Liste",
-    "angmar": "Angmar",
+    "SW61": "SW61",
     "events": "Événements",
     "rokMail": "Courrier de la République de Corée",
     "mge": "MGE",
@@ -56,9 +56,9 @@
   },
   "home": {
     "tagline": "Royaume 23 • L'avènement des royaumes",
-    "title": "ANGMAR",
+    "title": "SW61",
     "subtitle": "Gardes Nazgul",
-    "builtFor": "Outils d'alliance Kingdom 23",
+    "builtFor": "Outils d'alliance Kingdom 4061",
     "sections": {
       "interactiveTools": "Outils du Royaume",
       "guides": "Guides et documentation",
@@ -76,7 +76,7 @@
         "badge": "Membres"
       },
       "events": {
-        "title": "Événements à Angmar",
+        "title": "Événements à SW61",
         "description": "Résultats des événements, classements des défis et suivi des compétitions",
         "badge": "Résultats"
       },
@@ -780,7 +780,7 @@
     "subtitle": "Fonctionnalités expérimentales",
     "warningBody": "Ces outils sont expérimentaux et peuvent présenter des bugs ou des fonctionnalités incomplètes. Ils sont partagés à des fins de tests et de commentaires.",
     "betaBadge": "Bêta",
-    "footerBrand": "Gardes d'Angmar Nazgul • L'avènement des royaumes",
+    "footerBrand": "Gardes d'SW61 Nazgul • L'avènement des royaumes",
     "footerFeedback": "Vous avez des commentaires ? Faites-le-nous savoir sur Discord"
   },
   "dkp": {

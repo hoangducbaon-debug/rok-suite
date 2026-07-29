@@ -15,7 +15,7 @@ interface TemplateSelectorProps {
 }
 
 export function TemplateSelector({ onClose, onLoadTemplate }: TemplateSelectorProps) {
-  const [activeCategory, setActiveCategory] = useState<TemplateCategory>('angmar');
+  const [activeCategory, setActiveCategory] = useState<TemplateCategory>('SW61');
   const [selectedTemplate, setSelectedTemplate] = useState<string | null>(null);
 
   const categories = Object.keys(TEMPLATE_CATEGORY_LABELS) as TemplateCategory[];

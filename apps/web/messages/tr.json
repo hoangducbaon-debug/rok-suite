@@ -28,11 +28,11 @@
   },
   "nav": {
     "siteTitle": "Krallık 23",
-    "siteSubtitle": "Angmar Nazgul Muhafızları liderliğinde",
+    "siteSubtitle": "SW61 Nazgul Muhafızları liderliğinde",
     "home": "Ev",
     "calendar": "Takvim",
     "roster": "Kadro",
-    "angmar": "Angmar'ın",
+    "SW61": "SW61'ın",
     "events": "Olaylar",
     "rokMail": "RoK Postası",
     "mge": "MGE",
@@ -56,7 +56,7 @@
   },
   "home": {
     "tagline": "Krallık 23 • Krallıkların Yükselişi",
-    "title": "ANGMAR",
+    "title": "SW61",
     "subtitle": "Nazgül Muhafızları",
     "builtFor": "Krallık 23 İttifak Araçları",
     "sections": {
@@ -76,7 +76,7 @@
         "badge": "Üyeler"
       },
       "events": {
-        "title": "Angmar Etkinlikleri",
+        "title": "SW61 Etkinlikleri",
         "description": "Etkinlik sonuçları, mücadele sıralamaları ve rekabet takibi",
         "badge": "Sonuçlar"
       },
@@ -780,7 +780,7 @@
     "subtitle": "Deneysel özellikler",
     "warningBody": "Bu araçlar deneyseldir ve hatalar veya eksik özellikler içerebilir. Test ve geri bildirim amacıyla paylaşılırlar.",
     "betaBadge": "Beta",
-    "footerBrand": "Angmar Nazgul Muhafızları • Rise of Kingdoms",
+    "footerBrand": "SW61 Nazgul Muhafızları • Rise of Kingdoms",
     "footerFeedback": "Geri bildiriminiz var mı? Discord'dan bize bildirin"
   },
   "dkp": {

@@ -28,11 +28,11 @@
   },
   "nav": {
     "siteTitle": "Reino 23",
-    "siteSubtitle": "Liderado pelos Guardas Angmar Nazgul",
+    "siteSubtitle": "Liderado pelos Guardas SW61 Nazgul",
     "home": "Lar",
     "calendar": "Calendário",
     "roster": "Lista",
-    "angmar": "Angmar",
+    "SW61": "SW61",
     "events": "Eventos",
     "rokMail": "Correio RoK",
     "mge": "MGE",
@@ -56,7 +56,7 @@
   },
   "home": {
     "tagline": "Reino 23 • Ascensão dos Reinos",
-    "title": "ANGMAR",
+    "title": "SW61",
     "subtitle": "Guardas Nazgûl",
     "builtFor": "Ferramentas da Aliança do Reino 23",
     "sections": {
@@ -76,7 +76,7 @@
         "badge": "Membros"
       },
       "events": {
-        "title": "Eventos Angmar",
+        "title": "Eventos SW61",
         "description": "Resultados de eventos, classificações de desafios e acompanhamento de competições",
         "badge": "Resultados"
       },
@@ -780,7 +780,7 @@
     "subtitle": "Recursos experimentais",
     "warningBody": "Essas ferramentas são experimentais e podem conter bugs ou recursos incompletos. Eles são compartilhados para fins de teste e feedback.",
     "betaBadge": "Beta",
-    "footerBrand": "Guardas Angmar Nazgul • Ascensão dos Reinos",
+    "footerBrand": "Guardas SW61 Nazgul • Ascensão dos Reinos",
     "footerFeedback": "Tem feedback? Deixe-nos saber no Discord"
   },
   "dkp": {

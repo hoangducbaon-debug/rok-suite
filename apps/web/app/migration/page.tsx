@@ -649,7 +649,7 @@ function MigrationPageInner() {
               <div>
                 <div className="text-xs font-semibold uppercase tracking-wider text-violet-300 mb-2">What is this page?</div>
                 <p className="text-xs">
-                  This is where Angmar leadership decides who shouldn&apos;t be in Kingdom 23 and tracks them through to leaving (emigrating) or being zeroed (attacked until their power drops to ~0). It works by:
+                  This is where SW61 leadership decides who shouldn&apos;t be in Kingdom 4061 and tracks them through to leaving (emigrating) or being zeroed (attacked until their power drops to ~0). It works by:
                 </p>
                 <ol className="text-xs mt-2 space-y-1 list-decimal pl-5">
                   <li><strong>Identifying targets</strong> — by looking at scans, comparing them, or cross-referencing the migrant-application sheet</li>

@@ -716,7 +716,7 @@ export default function UpgradeCalculator() {
         {/* Footer */}
         <footer className={`pt-6 border-t ${theme.border} text-center`}>
           <p className={`text-xs ${theme.textMuted}`}>
-            Angmar • Rise of Kingdoms
+            SW61 • Rise of Kingdoms
           </p>
           <p className={`text-[10px] ${theme.textMuted} mt-2 opacity-50`}>
             Wisdom from the North (Sysstm approved) • No royal mail necessary

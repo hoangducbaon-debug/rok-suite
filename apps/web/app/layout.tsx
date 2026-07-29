@@ -21,8 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ANGMAR - Kingdom 23 - RoK",
-  description: "Angmar Nazgul Guards - Rise of Kingdoms Kingdom 23 alliance tools and battle planning",
+  title: "SW61 - Kingdom 4061 - RoK",
+  description: "SW61 Shadow Warrior - Rise of Kingdoms Kingdom 4061 alliance tools and battle planning",
   icons: {
     icon: "/favicon.svg",
   },

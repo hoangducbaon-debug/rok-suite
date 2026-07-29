@@ -15,12 +15,12 @@ import {
 const PUBLIC_CALENDARS = [
     {
         id: '2aed069b30c3f3501b64ef982441f597b833e3db8b855488f734efe1b9552040@group.calendar.google.com',
-        name: 'Angmar Alliance',
+        name: 'SW61 Alliance',
         color: '#ef4444',
     },
     {
         id: 'e1ef35a9b7dd39094f70f7065b2c20e86685b9f7e1e62f17030298d0a3bbedca@group.calendar.google.com',
-        name: 'Kingdom 23',
+        name: 'Kingdom 4061',
         color: '#3b82f6',
     },
 ];
@@ -1248,7 +1248,7 @@ export default function CalendarPage() {
                             </div>
                             <div>
                                 <h1 className="text-xl sm:text-2xl font-semibold tracking-tight">Event Calendar</h1>
-                                <p className="text-xs sm:text-sm text-[var(--text-secondary)] hidden sm:block">Kingdom 23 events and Angmar alliance activities</p>
+                                <p className="text-xs sm:text-sm text-[var(--text-secondary)] hidden sm:block">Kingdom 4061 events and SW61 alliance activities</p>
                             </div>
                         </div>
                         {isAdmin ? (
@@ -1482,7 +1482,7 @@ export default function CalendarPage() {
                 </p>
 
                 <footer className={`mt-8 pt-4 border-t ${theme.border} text-center space-y-1`}>
-                    <p className={`text-xs ${theme.textMuted}`}>Kingdom 23 • Rise of Kingdoms</p>
+                    <p className={`text-xs ${theme.textMuted}`}>Kingdom 4061 • Rise of Kingdoms</p>
                     <p className={`text-[10px] ${theme.textMuted} opacity-50`}>Subscribe to get event reminders in your calendar app</p>
                     <p className={`text-[10px] ${theme.textMuted} opacity-50`}>
                         ROK Events generated from a built-in recurring schedule — calibrate cycle anchors in <code className="font-mono">lib/calendar/rok-events.ts</code> to keep occurrences accurate.

@@ -27,13 +27,13 @@
     "language": "Language"
   },
   "nav": {
-    "siteTitle": "Kingdom 23",
-    "siteSubtitle": "Led by Angmar Nazgul Guards",
+    "siteTitle": "Kingdom 4061",
+    "siteSubtitle": "Led by SW61 Shadow Warrior",
     "home": "Home",
     "calendar": "Calendar",
     "roster": "Roster",
     "recognition": "Recognition",
-    "angmar": "Angmar",
+    "SW61": "SW61",
     "events": "Events",
     "rokMail": "RoK Mail",
     "mge": "MGE",
@@ -56,10 +56,10 @@
     "applyLeader": "Submit lead info"
   },
   "home": {
-    "tagline": "Kingdom 23 • Rise of Kingdoms",
-    "title": "ANGMAR",
-    "subtitle": "Nazgul Guards",
-    "builtFor": "Kingdom 23 Alliance Tools",
+    "tagline": "Kingdom 4061 • Rise of Kingdoms",
+    "title": "SW61",
+    "subtitle": "Shadow Warrior",
+    "builtFor": "Kingdom 4061 Alliance Tools",
     "sections": {
       "interactiveTools": "Kingdom Tools",
       "guides": "Guides & Documentation",
@@ -82,7 +82,7 @@
         "badge": "Awards"
       },
       "events": {
-        "title": "Angmar Events",
+        "title": "SW61 Events",
         "description": "Event results, challenge rankings, and competition tracking",
         "badge": "Results"
       },
@@ -153,7 +153,7 @@
     "footer": {
       "github": "GitHub",
       "documentation": "Documentation",
-      "copyright": "Kingdom 23 • Rise of Kingdoms"
+      "copyright": "Kingdom 4061 • Rise of Kingdoms"
     }
   },
   "roster": {
@@ -785,7 +785,7 @@
     "subtitle": "Experimental features",
     "warningBody": "These tools are experimental and may have bugs or incomplete features. They're shared for testing and feedback purposes.",
     "betaBadge": "Beta",
-    "footerBrand": "Angmar Nazgul Guards • Rise of Kingdoms",
+    "footerBrand": "SW61 Shadow Warrior • Rise of Kingdoms",
     "footerFeedback": "Have feedback? Let us know on Discord"
   },
   "dkp": {
@@ -1182,7 +1182,7 @@
       "notes": "Anything else we should know"
     },
     "placeholders": {
-      "kingdom": "e.g. 23",
+      "kingdom": "e.g. 61",
       "name": "Your governor name",
       "govId": "Numeric ID from your profile",
       "discord": "username",

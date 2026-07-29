@@ -1,5 +1,5 @@
 export type TemplateCategory =
-  | 'angmar'
+  | 'SW61'
   | 'mng'
   | 'kng'
   | 'sng'
@@ -16,7 +16,7 @@ export interface MailTemplate {
 }
 
 export const TEMPLATE_CATEGORY_LABELS: Record<TemplateCategory, string> = {
-  angmar: 'ANG',
+  SW61: 'ANG',
   mng: 'MNG',
   kng: 'KNG',
   sng: 'SNG',
@@ -26,12 +26,12 @@ export const TEMPLATE_CATEGORY_LABELS: Record<TemplateCategory, string> = {
 };
 
 export const MAIL_TEMPLATES: MailTemplate[] = [
-  // ── Angmar Templates ──
+  // ── SW61 Templates ──
   {
     id: 'ang-mail',
-    name: 'Angmar Mail',
-    category: 'angmar',
-    description: 'Standard Angmar Nazgul Guards alliance mail format',
+    name: 'SW61 Mail',
+    category: 'SW61',
+    description: 'Standard SW61 Shadow Warrior alliance mail format',
     content: `<size=30px><color=#4d0000>A</color><color=#660000>N</color><color=#800000>G</color><color=#990000>M</color><color=#b30000>A</color><color=#cc0000>R</color> <color=#4d0000>N</color><color=#660000>A</color><color=#800000>Z</color><color=#990000>G</color><color=#b30000>U</color><color=#cc0000>L</color> <color=#e60000>G</color><color=#ff0000>U</color><color=#ff0000>A</color><color=#cc0000>R</color><color=#990000>D</color><color=#800000>S</color></size>
 ►═════════❂❂❂═════════◄
 
@@ -40,7 +40,7 @@ export const MAIL_TEMPLATES: MailTemplate[] = [
 Your message here.
 
 ►═════════❂❂❂═════════◄
-<b><color=#800000>— Angmar Leadership</color></b>`,
+<b><color=#800000>— SW61 Leadership</color></b>`,
   },
 
   // ── MNG Templates ──

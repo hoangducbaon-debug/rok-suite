@@ -28,11 +28,11 @@
   },
   "nav": {
     "siteTitle": "Königreich 23",
-    "siteSubtitle": "Angeführt von Angmar Nazgul Guards",
+    "siteSubtitle": "Angeführt von SW61 Shadow Warrior",
     "home": "Heim",
     "calendar": "Kalender",
     "roster": "Dienstplan",
-    "angmar": "Angmar",
+    "SW61": "SW61",
     "events": "Veranstaltungen",
     "rokMail": "RoK-Mail",
     "mge": "MGE",
@@ -56,9 +56,9 @@
   },
   "home": {
     "tagline": "Königreich 23 • Aufstieg der Königreiche",
-    "title": "ANGMAR",
+    "title": "SW61",
     "subtitle": "Nazgul-Wächter",
-    "builtFor": "Kingdom 23 Alliance Tools",
+    "builtFor": "Kingdom 4061 Alliance Tools",
     "sections": {
       "interactiveTools": "Königreichswerkzeuge",
       "guides": "Anleitungen und Dokumentation",
@@ -76,7 +76,7 @@
         "badge": "Mitglieder"
       },
       "events": {
-        "title": "Angmar-Veranstaltungen",
+        "title": "SW61-Veranstaltungen",
         "description": "Veranstaltungsergebnisse, Challenge-Ranglisten und Wettbewerbsverfolgung",
         "badge": "Ergebnisse"
       },
@@ -780,7 +780,7 @@
     "subtitle": "Experimentelle Funktionen",
     "warningBody": "Diese Tools sind experimentell und können Fehler oder unvollständige Funktionen aufweisen. Sie werden zu Test- und Feedbackzwecken weitergegeben.",
     "betaBadge": "Beta",
-    "footerBrand": "Angmar Nazgul-Wachen • Aufstieg der Königreiche",
+    "footerBrand": "SW61 Nazgul-Wachen • Aufstieg der Königreiche",
     "footerFeedback": "Haben Sie Feedback? Lass es uns auf Discord wissen"
   },
   "dkp": {

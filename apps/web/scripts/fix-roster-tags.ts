@@ -1,5 +1,5 @@
 /**
- * Add angmar-og tag to members from the roster CSV
+ * Add SW61-og tag to members from the roster CSV
  * and merge duplicates with ang prefix
  */
 
@@ -79,7 +79,7 @@ async function main() {
 
   // Strategy:
   // 1. For duplicates: keep the tagged one, deactivate the untagged duplicate
-  // 2. For non-duplicates in CSV without tags: add the angmar-og tag
+  // 2. For non-duplicates in CSV without tags: add the SW61-og tag
 
   // First, handle duplicates - keep tagged one, deactivate untagged
   const toDeactivate: { id: string; name: string }[] = [];
@@ -88,8 +88,8 @@ async function main() {
   for (const [norm, members] of duplicates) {
     if (!members) continue;
     // Find tagged and untagged
-    const tagged = members.find(m => m.tags?.includes('angmar-og'));
-    const untagged = members.filter(m => !m.tags?.includes('angmar-og'));
+    const tagged = members.find(m => m.tags?.includes('SW61-og'));
+    const untagged = members.filter(m => !m.tags?.includes('SW61-og'));
 
     if (tagged && untagged.length > 0) {
       // Deactivate untagged duplicates
@@ -119,13 +119,13 @@ async function main() {
     // Only tag if NOT a duplicate (single member) and doesn't have tag
     if (members && members.length === 1) {
       const m = members[0];
-      if (!m.tags || !m.tags.includes('angmar-og')) {
+      if (!m.tags || !m.tags.includes('SW61-og')) {
         toTag.push({ id: m.id, name: m.name, currentTags: m.tags || [] });
       }
     }
   }
 
-  console.log(`\nNon-duplicate members to add angmar-og tag: ${toTag.length}`);
+  console.log(`\nNon-duplicate members to add SW61-og tag: ${toTag.length}`);
   if (toTag.length > 0) {
     console.log('Sample:');
     toTag.slice(0, 10).forEach(m => console.log(`  - ${m.name}`));
@@ -163,7 +163,7 @@ async function main() {
   // Add tags to non-duplicates
   let tagged = 0;
   for (const m of toTag) {
-    const newTags = [...m.currentTags, 'angmar-og'];
+    const newTags = [...m.currentTags, 'SW61-og'];
     const { error } = await supabase
       .from('alliance_roster')
       .update({ tags: newTags })
@@ -171,7 +171,7 @@ async function main() {
 
     if (!error) tagged++;
   }
-  console.log(`Added angmar-og tag to ${tagged} members`);
+  console.log(`Added SW61-og tag to ${tagged} members`);
 
   console.log('\nDone!');
 }

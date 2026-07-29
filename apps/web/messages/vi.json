@@ -27,12 +27,12 @@
     "language": "Ngôn ngữ"
   },
   "nav": {
-    "siteTitle": "Vương quốc 23",
-    "siteSubtitle": "Được chỉ huy bởi Vệ binh Angmar Nazgul",
+    "siteTitle": "Vương quốc 61",
+    "siteSubtitle": "Được chỉ huy bởi Vệ binh SW61 Đại Ca",
     "home": "Trang chủ",
     "calendar": "Lịch",
     "roster": "Danh sách",
-    "angmar": "tiếng Anh",
+    "SW61": "tiếng Anh",
     "events": "Sự kiện",
     "rokMail": "Thư Hàn Quốc",
     "mge": "MGE",
@@ -51,14 +51,15 @@
     "allianceCalculator": "Máy tính liên minh",
     "dkp": "Điểm DKP",
     "alliances": "Alliances",
+    "migration": "Di cư",
     "recognition": "Sự công nhận",
     "applyLeader": "Gửi thông tin trưởng"
   },
   "home": {
-    "tagline": "Vương quốc 23 • Vương quốc trỗi dậy",
-    "title": "ANGMAR",
-    "subtitle": "Vệ binh Nazgul",
-    "builtFor": "Công cụ liên minh Kingdom 23",
+    "tagline": "Vương quốc 61 • Vương quốc trỗi dậy",
+    "title": "SW61",
+    "subtitle": "Shadow Warrior",
+    "builtFor": "Công cụ liên minh Kingdom 4061",
     "sections": {
       "interactiveTools": "Công cụ Vương quốc",
       "guides": "Hướng dẫn & Tài liệu",
@@ -148,7 +149,7 @@
     "footer": {
       "github": "GitHub",
       "documentation": "Tài liệu",
-      "copyright": "Vương quốc 23 • Vương quốc trỗi dậy"
+      "copyright": "Vương quốc 61 • Vương quốc trỗi dậy"
     }
   },
   "roster": {
@@ -780,7 +781,7 @@
     "subtitle": "Tính năng thử nghiệm",
     "warningBody": "Những công cụ này đang ở giai đoạn thử nghiệm và có thể có lỗi hoặc tính năng chưa hoàn chỉnh. Chúng được chia sẻ cho mục đích thử nghiệm và phản hồi.",
     "betaBadge": "bản thử nghiệm",
-    "footerBrand": "Đội cận vệ Angmar Nazgul • Sự trỗi dậy của các vương quốc",
+    "footerBrand": "Đội cận vệ SW61 Nazgul • Sự trỗi dậy của các vương quốc",
     "footerFeedback": "Có phản hồi? Hãy cho chúng tôi biết trên Discord"
   },
   "dkp": {
@@ -1177,7 +1178,7 @@
       "notes": "Thông tin khác"
     },
     "placeholders": {
-      "kingdom": "vd: 23",
+      "kingdom": "vd: 61",
       "name": "Tên thống đốc của bạn",
       "govId": "ID số trong hồ sơ",
       "discord": "tên người dùng",
