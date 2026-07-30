@@ -38,7 +38,7 @@ export const KD_POOLS: Record<KdPoolKey, KdPool> = {
   current: {
     key: 'current',
     label: 'KvK3 current pool',
-    ranges: [{ min: 3897, max: 3928 }],
+    ranges: [{ min: 4061, max: 4061 }],
     allowedTabs: null,
   },
   preview: {

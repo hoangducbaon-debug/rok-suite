@@ -34,10 +34,10 @@
     "roster": "Danh sách",
     "SW61": "tiếng Anh",
     "events": "Sự kiện",
-    "rokMail": "Thư Hàn Quốc",
+    "rokMail": "Thư Việt",
     "mge": "MGE",
     "kingdom": "Vương quốc",
-    "migrationTracker": "Trình theo dõi di chuyển",
+    "migrationTracker": "Trình theo dõi di cư",
     "allianceSorter": "Máy phân loại liên minh",
     "wanted": "Muốn",
     "aooPlanner": "Công cụ lập kế hoạch AoO",
@@ -87,7 +87,7 @@
         "badge": "Dụng cụ"
       },
       "migrationTracker": {
-        "title": "Trình theo dõi di chuyển",
+        "title": "Trình theo dõi di cư",
         "description": "Theo dõi quá trình di cư của vương quốc, phát hiện những người di cư bất hợp pháp và theo dõi trạng thái của người chơi"
       },
       "allianceSorter": {
