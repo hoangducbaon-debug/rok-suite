@@ -4,14 +4,7 @@
 // just our seed instead of the full current pool.
 
 export const OUR_SEED_KDS = [
-  3899,
-  3900,
-  3905,
-  3909,
-  3915,
-  3922,
-  3923,
-  3924,
+ 4061,
 ] as const;
 
 export type OurSeedKd = (typeof OUR_SEED_KDS)[number];
