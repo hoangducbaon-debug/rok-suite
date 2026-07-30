@@ -82,7 +82,7 @@ const ZONE_COLORS: Record<number, { bg: string; border: string; text: string }> 
 };
 
 // Available alliances for team builder
-const ALLIANCES = ['ANG', '23KK', 'KNG', 'EQ'] as const;
+const ALLIANCES = ['SW'] as const;
 
 // RoK-mail alliance header presets. ANG / MNG / KNG are the kingdom's main
 // alliances and use the canonical gradient markup from
@@ -2506,7 +2506,7 @@ export default function AooStrategyPage() {
     const rosterCanvasRef = useRef<HTMLCanvasElement>(null);
 
     // Team Builder state
-    const [builderAlliance, setBuilderAlliance] = useState<string>('ANG');
+    const [builderAlliance, setBuilderAlliance] = useState<string>('SW');
     const [teamCount, setTeamCount] = useState<TeamNumber>(1); // Number of AoO teams to organize
     const [activeTeam, setActiveTeam] = useState<TeamNumber>(1); // Which team is being edited/distributed
     const [builderStep, setBuilderStep] = useState<'select' | 'distribute'>('select');
@@ -3802,7 +3802,7 @@ export default function AooStrategyPage() {
                     powerByName={powerByName}
                     killsByName={killsByName}
                     allianceByName={allianceByName}
-                    alliances={dbAlliances.length > 0 ? dbAlliances : [...ALLIANCES]}
+                    alliances={['SW']}
                     builderAlliance={builderAlliance}
                     setBuilderAlliance={setBuilderAlliance}
                     teamCount={teamCount}
